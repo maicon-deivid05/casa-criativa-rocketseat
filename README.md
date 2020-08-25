@@ -47,13 +47,13 @@ npm install || yarn install
 ###### Home-Page
 
 <p align="center">
-    <img src="./docs/page-home.jpg" width="500px">
+    <img src="./docs/page-home.png" width="500px">
 </p>
 
 ###### Ver ideias
 
 <p align="center">
-    <img src="./docs/page-ideas.jpg" width="500px">
+    <img src="./docs/page-ideia.jpg" width="500px">
 </p>
 
 ###### Cadastro de ideias
