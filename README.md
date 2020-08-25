@@ -6,7 +6,7 @@
 </h2>
 
 <h4 align="center">
-    <img alt="CasaCriativa" title="#CasaCriativa" src="./public/assets/logo.png" width="200px" />
+    <img alt="CasaCriativa" title="#CasaCriativa" src="./public/logo.png" width="200px" />
 </h4>
 
 ###### <p align="center">Aplicação foi feita para adicionar ou ver ideias, brincadeiras, jogos, filmes, livros, cursos, dicas para sair da CRISE .</p>
