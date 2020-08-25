@@ -28,10 +28,10 @@
 
 ### :information_source: Dependencias
 
-###### É só fazer as instalações das dependencias com npm ou yarn
+###### É só fazer as instalações das dependencias com npm 
 
 ```
-npm install || yarn install
+npm install 
 ```
 
 ## 💻 Front-end
