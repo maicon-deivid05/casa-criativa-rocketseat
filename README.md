@@ -1,6 +1,5 @@
 <h2 align="center">
 
-  <img alt="Semana OmniStack" src="./assets/rocketseat.svg" width="200px" />
   <br/>
   🚀 WorkshopDev Especial / Casa Criativa - Rocketseat
 </h2>
@@ -48,13 +47,13 @@ npm install || yarn install
 ###### Home-Page
 
 <p align="center">
-    <img src="./assets/home.png" width="500px">
+    <img src="./docs/page-home.jpg" width="500px">
 </p>
 
 ###### Ver ideias
 
 <p align="center">
-    <img src="./assets/ideas.png?raw=true" width="500px">
+    <img src="./docs/page-ideas.jpg" width="500px">
 </p>
 
 ###### Cadastro de ideias
@@ -63,5 +62,5 @@ npm install || yarn install
     <img src="./docs/page-nova-ideia.jpg" width="500px">
 </p>
 
-Feito com 💜 by Maicon Santana 🤝 [Entre em Contato!](/)
+Feito com 💜 by Maicon Santana 🤝 [Entre em Contato!](https://www.linkedin.com/in/maicon-deivid-b429a81b0)
 
