@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--tag html -->
+    <head><!--responsavel po receber configuração da página-->
+        <meta charse=UTF-8>
+        
+        {% block title %}
+        <title>
+            casa criativa
+        </title>
+        {% endblock title  %}
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body id="{{ bodyId }}">
+
+        <div id="container">
+        {% block content %}
+        {% endblock%}
+
+        </div>
+
+  <!--Modal ou pop-up-->    
+      {% include "modal.html" %}
+
+        <script src="/script.js"></script>
+
+    </body>
+
+
+</html>

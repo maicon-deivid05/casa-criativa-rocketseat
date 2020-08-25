@@ -1,0 +1,37 @@
+{% extends "layoute.html"%}
+
+
+
+{% block title %}
+<title>Ideias = casa criativa</title>
+{% endblock title  %}
+{% set bodyId = "page-ideias" %}
+
+
+{% block content %}
+<header>
+    <a href="/">
+        <img src="/logo.png" alt="imagem da logomarca">
+    </a>
+    
+    <nav>
+        <li><a href="/">Inicio</a></li> 
+        <li><a href="#" onclick="onOff()" class="button">Nova Ideia</a></li>
+    </nav>
+</header>
+<section id="title">
+    <p>em exibição</p>
+    <h1>Ideias</h1>
+</section>
+<main>
+    <section id="ideas">
+        {% include "onideas.html"%}
+    </section>
+</main>
+<footer>
+    com 💓 <a href="/" target="_blank">maicon_dev</a>
+    {% include "footer_nav.html"%}
+</footer>
+{% endblock %}
+
+ 

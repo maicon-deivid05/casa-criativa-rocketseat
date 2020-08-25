@@ -1,0 +1,23 @@
+    {% for idea in ideas %}
+    <input type="hidden" name="_method" value="DELETE" />
+    <div data-id="{{idea.id}}" class="idea">
+        <img src="{{idea.image}}" 
+        alt="imagem de {{idea.title}}">
+        <div class="content">
+            <h3>{{idea.title}}</h3>
+            <p>{{idea.category}}</p>
+            <div class="description">
+                {{idea.description}}
+            </div>
+            <a href=" {{idea.link}}" target="_blank">ir para a ideia</a>
+        </div> 
+        
+        <button type="submit" value="submit" onclick="onDelete(this.parentElement)">
+            <img src="https://raw.githubusercontent.com/felsantiago/work-shop-dev-casa-criativa/ecf2ec40040ad64d1f16875fe0d28bc63474bfdd/public/assets/delete.svg" alt="lixeira">
+        </button>
+        
+        
+        
+        
+    </div>
+    {% endfor %}

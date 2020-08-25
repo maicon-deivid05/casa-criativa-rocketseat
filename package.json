@@ -1,0 +1,20 @@
+{
+  "name": "aula1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "dev": "nodemon serve.js"
+  },
+  "keywords": [],
+  "author": "Maicon Santana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  }
+}
