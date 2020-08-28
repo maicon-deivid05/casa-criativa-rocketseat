@@ -21,10 +21,7 @@
 - [Node.js](https://nodejs.org/en/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Express](/)
-- [Sucrase](/)
-- [Eslint](/)
 - [Nodemon](/)
-- [Prettier](/)
 
 ### :information_source: Dependencias
 
